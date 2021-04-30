@@ -1,0 +1,4 @@
+baseURL = "http://yotaroy.github.io/blog/"
+languageCode = "ja"
+title = "yotaroy's blog"
+theme = "ananke"
