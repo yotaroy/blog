@@ -14,9 +14,6 @@ jobs:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
-      - name: Remove public directory from .gitignore
-        run: sed -i -e '/public/d' .gitignore
-
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:

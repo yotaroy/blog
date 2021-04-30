@@ -1,5 +1,7 @@
 # blog
 
+<https://yotaroy.github.io/blog/>
+
 ## Environment
 
 - Hugo
